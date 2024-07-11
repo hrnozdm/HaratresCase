@@ -19,7 +19,7 @@ public class Main {
 
             System.out.print("Seçiminiz: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Enter tuşunu temizle
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:

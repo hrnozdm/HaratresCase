@@ -76,7 +76,7 @@ public class ProductManager {
         while (true) {
             System.out.print("Birim Fiyat: ");
             price = scanner.nextDouble();
-            scanner.nextLine(); // Enter tuşunu temizle
+            scanner.nextLine();
             if (price >= 1 && price <= 100) {
                 break;
             } else {
@@ -91,7 +91,7 @@ public class ProductManager {
         while (true) {
             System.out.print("Stok Miktarı: ");
             stock = scanner.nextInt();
-            scanner.nextLine(); // Enter tuşunu temizle
+            scanner.nextLine();
             if (stock >= 1) {
                 break;
             } else {
@@ -106,7 +106,7 @@ public class ProductManager {
         while (true) {
             System.out.print("Değerlendirme Puanı (5 üzerinden): ");
             rating = scanner.nextDouble();
-            scanner.nextLine(); // Enter tuşunu temizle
+            scanner.nextLine();
             if (rating >= 0 && rating <= 5) {
                 break;
             } else {
@@ -130,7 +130,7 @@ public class ProductManager {
         while (true) {
             System.out.print("Eklemek istediğiniz adet: ");
             quantity = scanner.nextInt();
-            scanner.nextLine(); // Enter tuşunu temizle
+            scanner.nextLine();
             if (quantity <= product.getStock()) {
                 break;
             } else {
